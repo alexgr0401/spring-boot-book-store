@@ -3,8 +3,6 @@ settings.gradle
 system.properties
 .properties
 .settings
-.gradle
-gradlew
 build/
 procfile
 .idea
