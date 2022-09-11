@@ -1,2 +1,2 @@
 # Spring Boot book seller
-Performs online library administrator and user operations using Spring Boot.
+Performs backend operations for online library needs using Spring Boot.
