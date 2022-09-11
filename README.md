@@ -1,2 +1,2 @@
-# Spring Boot book seller
-Performs backend operations for online library needs using Spring Boot.
+# Spring Boot book store
+Performs backend operations for online book store needs using Spring Boot.
