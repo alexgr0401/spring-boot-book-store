@@ -4,7 +4,6 @@ system.properties
 .properties
 .settings
 build/
-procfile
 .idea
 
 # Compiled class file
