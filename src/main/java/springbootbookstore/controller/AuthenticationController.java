@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("api/authentication")//pre-path
 public class AuthenticationController {
+	
     @Autowired
     private IAuthenticationService authenticationService;
 
@@ -22,6 +23,7 @@ public class AuthenticationController {
 
     @PostMapping("sign-up") //api/authentication/sign-up
     public ResponseEntity<?> signUp(@RequestBody User user) {
+		
         if (userService.findByUsername(user.getUsername()).isPresent()) {
             return new ResponseEntity<>(HttpStatus.CONFLICT);
         }

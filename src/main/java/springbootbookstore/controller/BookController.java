@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("api/book")//pre-path
 public class BookController {
+	
     @Autowired
     private IBookService bookService;
 

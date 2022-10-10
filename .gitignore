@@ -1,8 +1,8 @@
 .classpath
-settings.gradle
 system.properties
 .properties
 .settings
+target/
 build/
 .idea
 

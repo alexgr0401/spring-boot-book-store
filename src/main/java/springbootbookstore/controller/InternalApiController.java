@@ -17,8 +17,8 @@ public class InternalApiController
     private IUserService userService;
 
     @PutMapping("make-admin/{username}") //api/internal/make-admin/{username}
-    public ResponseEntity<?> makeAdmin(@PathVariable String username)
-    {
+    public ResponseEntity<?> makeAdmin(@PathVariable String username){
+		
         userService.makeAdmin(username);
 
         return new ResponseEntity<>(HttpStatus.OK);
